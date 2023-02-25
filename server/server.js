@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-//const db = require('./db/db-connection.js');
+const dataWeather = require("./data")
 
 const app = express();
 
@@ -13,6 +13,11 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.json({ message: 'Hello from My template ExpressJS' });
   });
+
+// creates an endpoint for the route /api/weather
+app.get('/api/weather', (req, res) => {
+  res.json(dataWeather);
+});
 
 // console.log that your server is up and running
 app.listen(PORT, () => {
