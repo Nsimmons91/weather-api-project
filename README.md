@@ -5,36 +5,32 @@
 ## Quick Guide
 
 ```bash
-git clone https://github.com/priyaraj7/weather-forecast.git
+git clone https://github.com/Yosolita1978/HardCodeDataWeatherApi.git
 ```
 
 move inside the directory
 
 ```bash
-cd weather-forecast
+cd HardCodeDataWeatherApi
 ```
 
-next move into the server and install dependencies and start the server
+next move into the server and install dependencies
 
 ```bash
 cd server
 npm install
-npm start
 ```
 
-Create a `.env` file and enter your api-key. You can refer `.env-example` file
-
-Open another terminal then cd into the client, install dependencies and start the server
+Open another terminal then cd into the client, install dependencies
 
 ```bash
 cd client
 npm install
-npm start
 ```
+### To start servers
+Return to the terminal with the server folder and run the command `npm run dev`. This will run both servers with concurrently package
 
-Navigate to `http://localhost:3000/` and enter the city name. You will get the one day weather forecast of the city
-
-![screenshot](./weather.png)
+![screenshot](https://github.com/Yosolita1978/screenshoots/blob/main/2023/H1/Screen%20Shot%202023-02-25%20at%202.59.28%20PM.png?raw=true)
 
 Note:
 Server runs on http://localhost:5000 and client on http://localhost:3000
