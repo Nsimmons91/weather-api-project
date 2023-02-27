@@ -5,13 +5,13 @@
 ## Quick Guide
 
 ```bash
-git clone https://github.com/Yosolita1978/HardCodeDataWeatherApi.git
+git clone https://github.com/Yosolita1978/HardCodeDataWeatherApi.git <nameyourfolder>
 ```
 
 move inside the directory
 
 ```bash
-cd HardCodeDataWeatherApi
+cd nameyourfolder
 ```
 
 next move into the server and install dependencies
