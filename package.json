@@ -1,0 +1,23 @@
+{
+  "name": "hardcodedataweatherapi",
+  "version": "1.0.0",
+  "description": "> This app is a fullstack app build using React Frontend and Express Backend with hardcode data. This project doesn't render real-time data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nsimmons91/weather-api-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nsimmons91/weather-api-project/issues"
+  },
+  "homepage": "https://github.com/Nsimmons91/weather-api-project#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

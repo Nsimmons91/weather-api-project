@@ -1,0 +1,36 @@
+What am I making, reqirements and the goals?
+- Goal: Build a weather app that shows real-time weather info for cities using the OpenWeatherMap service.
+- Main Features:
+  - Show the weather for a set city to start with.
+  - Let users pick different cities to see their weather.
+  - Show extra details like city name, current weather icon, temperature, wind speed, humidity
+  -15+ commits
+  -1+ PR
+  -README with a visual of the project (i.e. gif, images, deployed version) and setup instructions
+  -Fetch method
+  -Connected frontend and backend
+  -Display the icon images for weather conditions such as sunny, rainy, cloudy, and snowy
+  -Responsive design
+  -Showcase you can implement the primary learning goals
+
+
+What do I need to do?
+
+Step 1:
+-Clone project and et up project folders to connect to a git remote repo
+-Make a server folder and connet to the express server
+
+Step 2:
+
+Step 3:
+
+
+
+
+Timeline for tasks
+
+
+
+
+
+Which tools and applicationsss will I use?
